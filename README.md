@@ -1,39 +1,21 @@
-# stonly-frontend
+# stonly-frontend [![Build Status](https://travis-ci.com/piotrmoszkowicz/stonly-frontend.svg?token=xekqxJ6rqHWZ9UVWqDYR&branch=master)](https://travis-ci.com/piotrmoszkowicz/stonly-frontend)
 
-## Project setup
-```
-npm install
-```
+Recruitment task for Stonly.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Requirements
 
-### Compiles and minifies for production
-```
-npm run build
-```
+Following stuff must be installed in order to make app work correctly:
 
-### Run your tests
-```
-npm run test
-```
+* [Node.js](https://nodejs.org) version 10.15.3
 
-### Lints and fixes files
-```
-npm run lint
-```
+## Tasks
 
-### Run your end-to-end tests
-```
-npm run test:e2e
-```
-
-### Run your unit tests
-```
-npm run test:unit
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Task                     | Description
+-----                    | -----------
+`build`                  | Compiles app and makes ready for prod environment
+`dev`                    | Serves develop version of the app
+`check`                  | `npm run lint && npm run test:e2e-headless`
+`lint`                   | Reformats and checks for code style rules
+`test:unit`              | Runs unit tests (none of them are there)
+`test:e2e`               | Runs e2e test
+`test:e2e-headless`      | Runs e2e test in headless mode
